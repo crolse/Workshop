@@ -1,4 +1,19 @@
-* {
+@font-face {
+    font-family: Goldplay;
+    src: url(../Font/Goldplay\ Regular.otf);
+ }
+
+ @font-face {
+    font-family: Goldplay;
+    src: url(../Font/Goldplay\ Bold.otf);
+    font-weight: bold;
+ }
+
+ body {
+    font-family: Goldplay;
+ }
+
+ * {
   box-sizing: border-box;
 }
 
@@ -14,22 +29,32 @@
 }
 
 html {
-  margin:0;
-  padding:0;
   background-color: white;
   background-image:url('../Images/export-bg-circles-fade.png');
-  background-size: 350px;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size:cover;
+  max-height: 125vh;
+  background-position-x: center;
 }
 
-image.superbg {
-
-
-}
 .header {
-	height: 1017px;
-  top: auto;
-  background-color: white;
+	height: 425px;
+  top: 0px;
+}
+
+.titre
+{
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 250px;
+  text-align: center;
+}
+
+.description
+{
+  font: normal normal 15px/20px;
+  text-align: center;
+  top: 0px
 }
 
 .menu ul {
