@@ -7,14 +7,20 @@
 <body>
 
 <div class="header">
+  <div class="menuBurger">
+    <a href="#"><img src="./Images/Illustrations/SVG/Menu.svg"/></a>
+  </div>
+
   <div class="titre">
    localize
   </div>
+
    <div class="description">
      Innovons ensemble pour demain
    </div>
 
-
+   <div class="buttonInscription">
+   </div>
 </div>
 
 <div class="row">

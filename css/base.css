@@ -38,23 +38,44 @@ html {
 }
 
 .header {
-	height: 425px;
+  height: 100vh;
   top: 0px;
+}
+
+.menuBurger
+{
+  position: absolute;
+  top: 5vh;
+  left: 5vh;
+  height: : 50vh;
+  width: 50vh;
 }
 
 .titre
 {
-  font-size: 3em;
+  font-size: 4em;
   font-weight: bold;
-  margin-top: 250px;
+  padding-top: 35vh;
   text-align: center;
+  color: white;
 }
 
 .description
 {
-  font: normal normal 15px/20px;
+  font-size: 1em;
   text-align: center;
-  top: 0px
+  top: 0px;
+  color: white;
+}
+
+.buttonInscription
+{
+  top: 5vh;
+  margin-left: : auto;
+  margin-right: auto;
+  width: 50vh;
+  height: 10vh;
+  background-color: white;
 }
 
 .menu ul {

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="778" height="1017" viewBox="0 0 778 1017">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #66d197;
+      }
+
+      .cls-2 {
+        fill: #3dcc8e;
+      }
+
+      .cls-3 {
+        fill: #00c68e;
+      }
+
+      .cls-4 {
+        fill: #03b898;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Fond" transform="translate(142.22 578.315)">
+    <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-1" width="375" height="1015" transform="translate(58.78 -578.315)"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-2" cx="389" cy="389" r="389" transform="translate(-142.22 -562.315)"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" class="cls-3" cx="308" cy="308.5" rx="308" ry="308.5" transform="translate(-61.22 -479.315)"/>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" class="cls-4" cx="228.5" cy="229" rx="228.5" ry="229" transform="translate(17.78 -402.315)"/>
+    <rect id="Fondu" class="cls-5" width="375" height="205" transform="translate(58.78 233.685)"/>
+  </g>
+</svg>
