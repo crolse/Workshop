@@ -7,11 +7,11 @@
 <form action="../Actions/connexion.php" method="post">
     <div class="row">
         <div class="input-field col s6">
-            <input name="nom" type="text" class="validate">
+            <input name="titreTopic" type="text" class="validate">
             <label for="nom">Nom</label>
         </div>
         <div class="input-field col s6">
-            <input name="prenom" type="text" class="validate">
+            <input name="corpsTopic" type="text" class="validate">
             <label for="last_name">Prenom</label>
         </div>
     </div>

@@ -27,8 +27,8 @@ $userexist = $r->rowCount();
 
 if ($userexist == 1) {
     $userinfo = $r->fetch();
-    $_SESSION['idPersonnes'] = $userinfo['idPErsonnes'];
-    $_SESSION['nom'] = $userinfo['nomPersonne'];
+    $_SESSION['idPersonnes'] = $userinfo['idPersonnes'];
+    $_SESSION['nom'] = $userinfo['nomPersonnes'];
     $_SESSION['prenom'] = $userinfo['prenomPersonnes'];
     $_SESSION['idRole'] = $userinfo['idRole'];
     $_SESSION['email'] = $userinfo['emailPersonnes'];
@@ -38,7 +38,7 @@ if ($userexist == 1) {
     } elseif ($userinfo['idRole'] == 2) {
         header("Location: ../vues/moderateur.php");
     } elseif ($userinfo['idRole'] == 3) {
-        header("Location: ../vues/client.php");
+        header("Location: ../vues/testcopy.php");
     }
 } else {
     /*header("Location: ../vues/pageConnexion.php");
