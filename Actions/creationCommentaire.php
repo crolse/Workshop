@@ -9,10 +9,11 @@ $db = new PDO(
     Config::USER,
     Config::MDP
 );
-$r = $db->prepare("INSERT INTO COMMENTAIRE(corpsCommentaires, dateCommentaires, idTopic, idPersonnes) values ".
-    "(:coprsCommentaires, NOW(), :idTopic, :idPersonnes)");
+$r = $db->prepare("INSERT INTO COMMENTAIRES (corpsCommentaires, dateCommentaires, idTopic, idPersonnes) values ".
+    "(:coprsCommentaires, :dateCom, :idTopic, :idPersonnes)");
 
 $r->bindParam(":coprsCommentaires", $coprsCommentaires);
+$r->bindParam(":dateCom", date("Y-m-d H:i:s"));
 $r->bindParam(":idTopic", $id_topic);
 $r->bindParam(":idPersonnes", $_SESSION['idPersonnes']);
 
