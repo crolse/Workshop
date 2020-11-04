@@ -32,6 +32,22 @@
 
 </form>
 
+<form action="../Actions/creationCommentaire.php" method="post">
+
+    <div class="row">
+        <div class="input-field col s6">
+            <input name="topic" type="text" class="validate">
+            <label for="topic">topic_id</label>
+        </div>
+        <div class="input-field col s6">
+            <input name="commentaire" type="text" class="validate">
+            <label for="commentaire">com</label>
+        </div>
+    </div>
+
+    <button class="btn waves-effect waves-light light-blue right" type="submit" name="action">Valider</button>
+</form>
+
 
 <br />
 
