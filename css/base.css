@@ -112,13 +112,16 @@ html {
   color: white;
 }
 
-
-.divTitre
+.espace
+{
+  margin-top: 25vh;
+}
+.titreSection
 {
   font-size: 2em;
   font-weight: bold;
-  padding-top: 25vh;
   color: #03B898;
+  text-align: center;
 }
 
 /* Section 1 : Qui sommes nous?*/
@@ -134,10 +137,7 @@ html {
 
 .div1TitreSection1
 {
-  width: 100%;
-  text-align: center;
-  color: #03B898;
-  font-size: 2em;
+
 }
 
 .div1TextSection1
@@ -168,8 +168,8 @@ html {
   background-color: white;
 }
 
-/* Section 2 : Où nous utiliser?*/
-.div1Section2
+/* Section 2 : Où nous utiliser? && Section 3 : Nos projets*/
+.div1Section
 {
   background-color: white;
   border-radius: 20px;
@@ -178,15 +178,149 @@ html {
   padding: 0.5em;
 }
 
+.divImageSection
+{
+  text-align: center;
+}
+
+.divTextSection
+{
+  background-color: white;
+  text-align: center;
+}
+
+.buttonSection
+{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2vh;
+  width: 40vh;
+  min-height: 30px;
+  border-radius: 20px;
+  border: 1px solid #03B898;
+
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  color: #03B898;
+}
+
+/*Section 4: L'équipe*/
+.divSection4
+{
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 1px 1px 12px #555;
+  padding: 0.5em;
+}
+
+.divImageSection4
+{
+  text-align: center;
+}
+
+.divNomSection4
+{
+  text-align: center;
+  color: #03B898;
+  font-size: 1.5em;
+}
+
+.divTexSection4
+{
+  text-align: center;
+  font-size: 1em;
+}
+
+.divbuttonSection4
+{
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  height: 10vh;
+  padding: 0.5em;
+}
+
+/*section 5: Nous contacter*/
+.divSection5
+{
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 1px 1px 12px #555;
+  padding: 0.5em;
+}
+
+.divTextSection5
+{
+  padding-top: 0.5em;
+  color: #03B898;
+  font-size: 1.5em;
+}
+
+.divInputSection5
+{
+  font-size: 10px;
+  color: #cccccc;
+}
+
+.buttonEnvoyer
+{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2vh;
+  width: 40vh;
+  min-height: 30px;
+  background-color: #03B898;
+  border-radius: 20px;
+
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+input
+{
+  width: 100%;
+  min-height: 30px;
+  border-radius: 10px;
+  border: 1px solid #03B898;
+}
+
+textarea
+{
+  width: 100%;
+  min-height: 200px;
+  border-radius: 10px;
+  border: 1px solid #03B898;
+}
 
 .footer {
-  background-color: #0099cc;
-  color: #ffffff;
-  text-align: center;
+  background-color: #03B898;
   font-size: 12px;
   padding: 15px;
 }
 
+.divTextfooter
+{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  margin-top: 5vh;
+}
+
+.divLogoFooter
+{
+  width: 100%;
+  text-align: center;
+  display: grid;
+  color: white;
+  font-size: 2em;
+  margin-top: 5vh;
+}
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;

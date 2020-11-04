@@ -28,15 +28,15 @@
    </div>
 
    <div class="buttonSavoirPlus">
-     <a href="#"><img src="./Images/Illustrations/SVG/Down.svg"/></a>
+     <a href="#1"><img src="./Images/Illustrations/SVG/Down.svg"/></a>
      <br>
      En savoir plus
    </div>
 </div>
 
-<div class="row">
+<div class="row espace">
   <div class="col-s-12 ">
-    <div class="divTitre">
+    <div id="1" class="titreSection">
       Qui sommes nous?
     </div>
   </div>
@@ -84,20 +84,221 @@
 
 <div class="row">
   <div class="col-s-12 ">
-    <div class="divTitre">
+    <div  id="2" class="titreSection">
       Où nous utiliser?
     </div>
-    <div class="div1Section2">
-      test
+    <div class="div1Section">
+      <div class="divImageSection">
+        <a href="#"><img src="./Images/Illustrations/SVG/Map.svg"/></a>
+      </div>
+      <div class="divTextSection">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <div class="buttonSection">
+        Ajouter ma ville
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-s-12">
+    <div id="3" class="titreSection">
+      Nos projets
+    </div>
+    <div class="div1Section">
+      <div class="divImageSection">
+        <a href="#"><img src="./Images/Illustrations/SVG/373_architect_flatline.svg"/></a>
+      </div>
+      <div class="divTextSection">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <div class="buttonSection">
+        Découvrir
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-s-12">
+    <div id="4" class="titreSection">
+      L'équipe
     </div>
   </div>
 
+  <div class="col-s-6">
+    <div class="divSection4">
+      <div class="divImageSection4">
+        <img src="./Images/Illustrations/SVG/181_code_javascript_flatline.svg"/>
+      </div>
+      <div class="divNomSection4">
+        Grégoire
+      </div>
+      <div class="divTexSection4">
+        Front-End Developer
+      </div>
+    </div>
+  </div>
 
+  <div class="col-s-6">
+    <div class="divSection4">
+      <div class="divImageSection4">
+        <img src="./Images/Illustrations/SVG/web_developer.svg"/>
+      </div>
+      <div class="divNomSection4">
+        Marius
+      </div>
+      <div class="divTexSection4">
+        Front-End Developer
+      </div>
+    </div>
+  </div>
+
+  <div class="col-s-6">
+    <div class="divSection4">
+      <div class="divImageSection4">
+        <img src="./Images/Illustrations/SVG/179_coding_flatline.svg"/>
+      </div>
+      <div class="divNomSection4">
+        Maëlle
+      </div>
+      <div class="divTexSection4">
+        Back-End Developer
+      </div>
+    </div>
+  </div>
+
+  <div class="col-s-6">
+    <div class="divSection4">
+      <div class="divImageSection4">
+        <img src="./Images/Illustrations/SVG/177_coding_flatline.svg"/>
+      </div>
+      <div class="divNomSection4">
+        Jean-Michel
+      </div>
+      <div class="divTexSection4">
+        Back-End Developer
+      </div>
+    </div>
+  </div>
+
+  <div class="col-s-6">
+    <div class="divSection4">
+      <div class="divImageSection4">
+        <img src="./Images/Illustrations/SVG/009.svg"/>
+      </div>
+      <div class="divNomSection4">
+        Benoit
+      </div>
+      <div class="divTexSection4">
+        DevOps Engineer
+      </div>
+    </div>
+  </div>
+
+  <div class="col-s-6">
+    <div class="divSection4">
+      <div class="divImageSection4">
+        <img src="./Images/Illustrations/SVG/287_startup_flatline.svg"/>
+      </div>
+      <div class="divNomSection4">
+        Néhémie
+      </div>
+      <div class="divTexSection4">
+        Digital Marketing Manager
+      </div>
+    </div>
+  </div>
+
+  <div class="col-s-6">
+    <div class="divSection4">
+      <div class="divImageSection4">
+        <img src="./Images/Illustrations/SVG/230_designer_flatline.svg"/>
+      </div>
+      <div class="divNomSection4">
+        Enzo
+      </div>
+      <div class="divTexSection4">
+        UX/UI Designer
+      </div>
+    </div>
+  </div>
+
+  <div class="col-s-6">
+    <div class="divbuttonSection4">
+      <div class="buttonSection">
+        Nous rejoindre
+      </div>
+    </div>
+  </div>
 
 </div>
 
+<div class="row">
+  <div class="col-s-12">
+    <div id="5" class="titreSection">
+      Nous contacter
+    </div>
+
+  <div class="divSection5">
+    <div class="divTextSection5">
+      Nom
+    </div>
+    <div class="divInputSection5">
+      <input type="text" placeholder="Entrez votre nom">
+    </div>
+    <div class="divTextSection5">
+      Adresse mail
+    </div>
+    <div class="divInputSection5">
+      <input type="text" placeholder="Entrez votre adresse mail">
+    </div>
+    <div class="divTextSection5">
+      Message
+    </div>
+    <div class="divInputSection5">
+      <textarea placeholder="Dites-nous tout..."></textarea>
+    </div>
+    <div class="buttonEnvoyer">
+      Envoyer
+    </div>
+  </div>
+</div>
+</div>
+
+
 <div class="footer">
-  <p>Resize the browser window to see how the content respond to the resizing.</p>
+  <div class="divTextfooter">
+    Mentions légales
+  </div>
+  <div class="divTextfooter">
+    Politique de confidentialité
+  </div>
+  <div class="divTextfooter">
+    Plan du site
+  </div>
+  <div class="divLogoFooter">
+    <table>
+      <tr>
+        <td>
+            <a href="https://www.facebook.com"><img src="./Images/Illustrations/SVG/Facebook.svg"/>
+        </td>
+        <td>
+            <a href="https://www.linkedin.com/"><img src="./Images/Illustrations/SVG/LinkedIn.svg"/>
+        </td>
+        <td>
+          <a href="https://www.twitter.com"><img src="./Images/Illustrations/SVG/Twitter.svg"/>
+        </td>
+        <td>
+          <a href="https://www.youtube.com"><img src="./Images/Illustrations/SVG/YouTube.svg"/>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="divTextfooter">
+    &copy; 2020 localize - Tous droits réservés
+  </div>
 </div>
 
 </body>
