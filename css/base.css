@@ -281,23 +281,9 @@ html {
   font-size: 20px;
 }
 
-input
-{
-  width: 100%;
-  min-height: 30px;
-  border-radius: 10px;
-  border: 1px solid #03B898;
-}
 
-textarea
+.footer
 {
-  width: 100%;
-  min-height: 200px;
-  border-radius: 10px;
-  border: 1px solid #03B898;
-}
-
-.footer {
   background-color: #03B898;
   font-size: 12px;
   padding: 15px;
@@ -321,6 +307,75 @@ textarea
   font-size: 2em;
   margin-top: 5vh;
 }
+
+.menu
+{
+  background-image: image("./Images/export-bg-circles.png");
+    height: 100vh;
+    top: 0px;
+}
+
+.divMenu1
+{
+  padding-top: 10vh;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  display: inline-block;
+}
+
+.divMenu
+{
+  padding-top: 3vh;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  display: inline-block;
+}
+
+.logoRecherche
+{
+  margin: 5vh 2vh 5vh 2vh;
+  left: 5vh;
+  width: auto;
+  display: grid;
+}
+
+.logo
+{
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 10vh;
+  text-align: center;
+  color: white;
+}
+
+a
+{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+input
+{
+  width: 100%;
+  min-height: 30px;
+  border-radius: 10px;
+  border: 1px solid #03B898;
+}
+
+textarea
+{
+  width: 100%;
+  min-height: 200px;
+  border-radius: 10px;
+  border: 1px solid #03B898;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;

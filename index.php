@@ -8,7 +8,7 @@
 
 <div class="header">
   <div class="menuBurger">
-    <a href="#"><img src="./Images/Illustrations/SVG/Menu.svg"/></a>
+    <a href="menu.php"><img src="./Images/Illustrations/SVG/Menu.svg"/></a>
   </div>
 
   <div class="titre">
