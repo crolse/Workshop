@@ -70,40 +70,114 @@ html {
 
 .buttonInscription
 {
-  top: 5vh;
-  margin-left: : auto;
   margin-right: auto;
-  width: 50vh;
-  height: 10vh;
+  margin-left: auto;
+  margin-top: 7vh;
+  width: 40vh;
+  min-height: 30px;
+  background-color: white;
+  border-radius: 20px;
+
+  color: #03B898;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.buttonConnexion
+{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2vh;
+  width: 40vh;
+  min-height: 30px;
+  border-radius: 20px;
+  border: 1px solid white;
+
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  color: white;
+}
+
+.buttonSavoirPlus
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18vh;
+  width: 30vh;
+  min-height: 10vh;
+
+  text-align: center;
+  color: white;
+}
+
+
+.divTitre
+{
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 25vh;
+  color: #03B898;
+}
+
+/* Section 1 : Qui sommes nous?*/
+/*Vos idées, notre priorité*/
+.div1Section1
+{
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 1px 1px 12px #555;
+  padding: 0.5em;
+}
+
+.div1TitreSection1
+{
+  width: 100%;
+  text-align: center;
+  color: #03B898;
+  font-size: 2em;
+}
+
+.div1TextSection1
+{
   background-color: white;
 }
 
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+/*Batir le futur ensenble*/
+.div2Section1
+{
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 1px 1px 12px #555;
+  padding: 0.5em;
 }
 
-.menu li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.menu li:hover {
-  background-color: #0099cc;
-}
-
-.aside {
-  background-color: #33b5e5;
-  padding: 15px;
-  color: #ffffff;
+.div2TitreSection1
+{
+  width: 100%;
   text-align: center;
-  font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color: #03B898;
+  font-size: 2em;
 }
+
+.div2TextSection1
+{
+  background-color: white;
+}
+
+/* Section 2 : Où nous utiliser?*/
+.div1Section2
+{
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 1px 1px 12px #555;
+  padding: 0.5em;
+}
+
 
 .footer {
   background-color: #0099cc;

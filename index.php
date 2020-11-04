@@ -20,34 +20,80 @@
    </div>
 
    <div class="buttonInscription">
+     Inscription
+   </div>
+
+   <div class="buttonConnexion">
+     Connexion
+   </div>
+
+   <div class="buttonSavoirPlus">
+     <a href="#"><img src="./Images/Illustrations/SVG/Down.svg"/></a>
+     <br>
+     En savoir plus
    </div>
 </div>
 
 <div class="row">
-  <div class="col-3 col-s-3 menu">
-    <ul>
-      <li>The Flight</li>
-      <li>The City</li>
-      <li>The Island</li>
-      <li>The Food</li>
-    </ul>
-  </div>
-
-  <div class="col-6 col-s-9">
-    <h1>The City</h1>
-    <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
-  </div>
-
-  <div class="col-3 col-s-12">
-    <div class="aside">
-      <h2>What?</h2>
-      <p>Chania is a city on the island of Crete.</p>
-      <h2>Where?</h2>
-      <p>Crete is a Greek island in the Mediterranean Sea.</p>
-      <h2>How?</h2>
-      <p>You can reach Chania airport from all over Europe.</p>
+  <div class="col-s-12 ">
+    <div class="divTitre">
+      Qui sommes nous?
     </div>
   </div>
+
+  <div class="col-s-6">
+    <div class="div1Section1">
+      <div class="div1TitreSection1">
+        Vos idées, notre priorité.
+      </div>
+      <div class="div1TextSection1">
+        <table>
+          <tr>
+            <td>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </td>
+            <td>
+              <a href="#"><img src="./Images/Illustrations/SVG/361_factory_worker_flatline.svg"/></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      </div>
+    </div>
+
+  <div class="col-s-6">
+    <div class="div2Section1">
+      <div class="div2TitreSection1">
+        Vos idées, notre priorité.
+      </div>
+      <div class="div2TextSection1">
+        <table>
+          <tr>
+            <td>
+              <a href="#"><img src="./Images/Illustrations/SVG/337_thinking_flatline.svg"/></a>
+            </td>
+            <td>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-s-12 ">
+    <div class="divTitre">
+      Où nous utiliser?
+    </div>
+    <div class="div1Section2">
+      test
+    </div>
+  </div>
+
+
+
 </div>
 
 <div class="footer">
