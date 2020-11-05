@@ -17,7 +17,6 @@
         Connexion
     </div>
     <div id="ecran">
-
         <div class="formulaire">
             <form action="./Actions/connexion.php" method="post">
 
