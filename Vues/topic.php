@@ -17,14 +17,14 @@ $users = $r1->fetchAll();
 ?>
 
 <div class="container">
-    <div class="w-25 mt-5 mx-auto">
+    <div class=" mt-5s mx-auto">
         <?php foreach ($topics as $topic) {
             ?>
             <div class="row">
                 <div class="col s12 m6">
-                    <div class="card green darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title"><?php echo $topic['titreTopic'] ?></span>
+                    <div style="border-radius: 50px; box-shadow: 1px 1px 12px #555;" class="card white darken-1">
+                        <div class="card-content grey-text">
+                            <span class="card-title green-text bold"><?php echo $topic['titreTopic'] ?></span>
                             <p><?php $topi = wordwrap($topic['corpsTopic'], 10, "***", true);
                                 $text = explode("***", $topi);
                                 if (count($text) > 15) {
@@ -38,14 +38,14 @@ $users = $r1->fetchAll();
                                     }
                                 } ?>
                             </p>
-                            <p style="color: #555555">posté par <?php foreach ($users as $user) {
+                            <p style="color: #555555;">posté par <?php foreach ($users as $user) {
                                     if ($user["idPersonnes"] == $topic["idPersonnes"]){
                                         echo $user["prenomPersonnes"]." ".$user["nomPersonnes"];
                                     }
                                 } ?>
                             </p>
                         </div>
-                        <div class="card-action">
+                        <div class="card-action" style="border-radius: 50px;  box-shadow: 0px 5px 5px #555;">
                             <a href="../Actions/likeTopic.php?id=<?php echo $topic["idTopic"] ?>"><?php echo $topic["compteurJaimeTopic"] ?> <img src="../Images/Illustrations/SVG/up-btn.svg"></a>
                             <a href="#"><img src="../Images/Illustrations/SVG/comment-btn.svg"></a>
                         </div>
