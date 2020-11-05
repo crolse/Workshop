@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Goldplay;
+    src: url(../Font/Goldplay\ Regular.otf);
+ }
+
+ @font-face {
+    font-family: Goldplay;
+    src: url(../Font/Goldplay\ Bold.otf);
+    font-weight: bold;
+ }
+ 
+
+
+
+body {
+   
+    background-color: white;
+    background-image:url('../Images/export-bg-circles-fade.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 110vh;
+    max-height: 125vh;
+    background-position-x: center;
+    font-family: Goldplay;
+   
+  }
+
+  .retour
+{
+  position: absolute;
+  top: 5vh;
+  left: 5vh;
+  height: : 50vh;
+  width: 50vh;
+}
+  
+  .titre
+{
+  font-size: 3em;
+  font-weight: bold;
+  padding-top: 7vh;
+  text-align: center;
+  color: white;
+}
+  #ecran {
+      width: 100vw;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .formulaire
+{
+   
+  background-color: white;
+  border-radius: 20px;
+  width: 80%;
+  box-shadow: 1px 1px 12px #555;
+  padding: 0.5em;
+}
+
+label {
+   color: #03B898 ;
+}
+#inputPrenom {
+    border-color: red;
+}
+/*bouton demarrer*/
+
+#bouttonDemarrer {
+    margin-right: auto;
+  margin-left: auto;
+  margin-top: 2vh;
+  width: 30vw;
+  min-height: 30px;
+  background-color: #03B898;
+  border-radius: 20px;
+
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+}
+/* lien */
+
+.lien {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: #03B898;
+}
+#lienPropre {
+    color: #03B898;
+}
+#lienMot {
+    color: grey;
+}
+
+#p {
+    font-size: 0.5em;
+}
+/* tous les champs du formulaire */
