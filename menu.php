@@ -12,7 +12,7 @@
             <a href="index.php"><img src="./Images/Illustrations/SVG/Back.svg"/></a>
           </td>
           <td style="text-align: right;">
-            <a href="recherche.php"><img src="./Images/Illustrations/SVG/Back.svg"/></a>
+            <a href="recherche.php"><img src="./Images/Illustrations/SVG/search-icon.svg"/></a>
           </td>
         </tr>
       </table>

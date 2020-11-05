@@ -310,14 +310,13 @@ html {
 
 .menu
 {
-  background-image: image("./Images/export-bg-circles.png");
-    height: 100vh;
+    height: 75vh;
     top: 0px;
 }
 
 .divMenu1
 {
-  padding-top: 10vh;
+  padding-top: 5vh;
   width: 100%;
   text-align: center;
   color: white;
