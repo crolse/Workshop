@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #000;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="comment-btn" transform="translate(0.183)">
+    <g id="Rectangle_108" data-name="Rectangle 108" class="cls-1" transform="translate(-0.183)">
+      <rect class="cls-2" width="37" height="37" rx="8"/>
+      <rect class="cls-3" x="0.5" y="0.5" width="36" height="36" rx="7.5"/>
+    </g>
+    <path id="Icon_awesome-comment-dots" data-name="Icon awesome-comment-dots" d="M12.037,2.25C5.389,2.25,0,6.628,0,12.03a8.681,8.681,0,0,0,2.68,6.146A11.962,11.962,0,0,1,.1,22.681a.374.374,0,0,0-.071.409.368.368,0,0,0,.343.226A10.753,10.753,0,0,0,6.987,20.9a14.34,14.34,0,0,0,5.05.912c6.649,0,12.037-4.378,12.037-9.78S18.686,2.25,12.037,2.25ZM6.019,13.535a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,6.019,13.535Zm6.019,0a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,12.037,13.535Zm6.019,0a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,18.056,13.535Z" transform="translate(6.431 5.612)"/>
+  </g>
+</svg>
