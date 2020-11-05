@@ -11,7 +11,7 @@
 
 <body>
     <div class="retour">
-        <a href="#"><img src="./Images/Illustrations/SVG/Back.svg" /></a>
+        <a href="index.php"><img src="./Images/Illustrations/SVG/Back.svg" /></a>
     </div>
     <div class="titre">
         Connexion

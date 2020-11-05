@@ -47,7 +47,7 @@ html {
   position: absolute;
   top: 5vh;
   left: 5vh;
-  height: : 50vh;
+  height:  50vh;
   width: 50vh;
 }
 
@@ -84,6 +84,10 @@ html {
   font-size: 20px;
 }
 
+#buttonInscriptionLien{
+  color: #03B898;
+}
+
 .buttonConnexion
 {
   margin-right: auto;
@@ -97,6 +101,10 @@ html {
   text-align: center;
   vertical-align: middle;
   font-size: 20px;
+  color: white;
+}
+
+#buttonConnexionLien{
   color: white;
 }
 
@@ -135,10 +143,7 @@ html {
   padding: 0.5em;
 }
 
-.div1TitreSection1
-{
 
-}
 
 .div1TextSection1
 {
