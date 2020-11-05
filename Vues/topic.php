@@ -1,5 +1,5 @@
 <?php
-//session_start();
+session_start();
 require_once '../header.php';
 require_once '../Config/config.php';
 $db = new PDO("mysql:host=" . Config::SERVEUR . ";dbname=" . Config::BASE . ""

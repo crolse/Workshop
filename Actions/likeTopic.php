@@ -39,6 +39,7 @@ if ($userexist == 1) {
     $r = $db->prepare("update topic set compteurJaimeTopic = compteurJaimeTopic - 1 where idTopic = :idTopic ");
     $r->bindParam(":idTopic", $idTopic);
     $r->execute();
+    header("Location: ../Vues/topic.php");
 } else {
     $r = $db->prepare("insert into ecrire (idPersonnes ,idTopic)"
         . "values (:idPersonnes , :idTopic)");
