@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #03b898;
+      }
+    </style>
+  </defs>
+  <g id="YouTube" transform="translate(-230 -4209)">
+    <circle id="Ellipse_44" data-name="Ellipse 44" class="cls-1" cx="12" cy="12" r="12" transform="translate(230 4209)"/>
+    <path id="Icon_ionic-logo-youtube" data-name="Icon ionic-logo-youtube" class="cls-2" d="M16.325,7.222a2.5,2.5,0,0,0-2.375-2.606C12.171,4.532,10.358,4.5,8.506,4.5H7.928c-1.849,0-3.666.032-5.444.116A2.5,2.5,0,0,0,.112,7.228C.032,8.371,0,9.514,0,10.656s.032,2.285.109,3.431A2.5,2.5,0,0,0,2.481,16.7c1.868.087,3.784.125,5.733.122s3.861-.032,5.733-.122a2.5,2.5,0,0,0,2.375-2.616c.077-1.146.112-2.289.109-3.434S16.4,8.368,16.325,7.222ZM6.644,13.805V7.5L11.3,10.65Z" transform="translate(233.663 4210.674)"/>
+  </g>
+</svg>

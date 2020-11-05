@@ -41,9 +41,5 @@ if ($userexist == 1) {
         header("Location: ../vues/testcopy.php");
     }
 } else {
-    /*header("Location: ../vues/pageConnexion.php");
-    $erreure = "email et/ou mot de passe incorects";*/
-    echo $email;
-    echo $mdp;
-    echo $_SESSION['idRole'];
+    header("Location: ../connexion.php");
 }

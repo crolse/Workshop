@@ -26,3 +26,5 @@ $r->bindParam(":role", $role);
 
 
 $r->execute();
+
+header("Location: ../connexion.php");
