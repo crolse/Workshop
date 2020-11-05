@@ -1,7 +1,8 @@
 <?php
 session_start();
 $email = filter_input(INPUT_POST, "email");
-$mdp = filter_input(INPUT_POST, "mdp");
+$mdp = sha1($_POST['mdp']);
+/*filter_input(INPUT_POST, "mdp");*/
 
 
 require_once '../Config/config.php';

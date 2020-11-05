@@ -3,7 +3,7 @@ session_start();
 $nom = filter_input(INPUT_POST, "nom");
 $prenom = filter_input(INPUT_POST, "prenom");
 $email = filter_input(INPUT_POST, "email");
-$mdp = filter_input(INPUT_POST, "mdp");
+$mdp = $mdp = sha1($_POST['mdp']); //filter_input(INPUT_POST, "mdp");
 $role = 3;
 
 require_once '../Config/config.php';
