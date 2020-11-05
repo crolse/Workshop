@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="778" height="812" viewBox="0 0 778 812">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #66d197;
+      }
+
+      .cls-2 {
+        fill: #3dcc8e;
+      }
+
+      .cls-3 {
+        fill: #00c68e;
+      }
+
+      .cls-4 {
+        fill: #03b898;
+      }
+
+      .cls-5 {
+        filter: url(#Rectangle_3);
+      }
+    </style>
+    <filter id="Rectangle_3" x="192" y="0" width="393" height="812" filterUnits="userSpaceOnUse">
+      <feOffset dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Fond" transform="translate(142.22 588.315)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, -142.22, -588.31)">
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" class="cls-1" width="375" height="794" transform="translate(201 10)"/>
+    </g>
+    <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-2" cx="389" cy="389" r="389" transform="translate(-142.22 -562.315)"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" class="cls-3" cx="308" cy="308.5" rx="308" ry="308.5" transform="translate(-61.22 -479.315)"/>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" class="cls-4" cx="228.5" cy="229" rx="228.5" ry="229" transform="translate(17.78 -402.315)"/>
+  </g>
+</svg>
