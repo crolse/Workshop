@@ -2,8 +2,11 @@
 session_start();
 require_once '../header.php';
 require_once '../Config/config.php';
-$db = new PDO("mysql:host=" . Config::SERVEUR . ";dbname=" . Config::BASE . ""
-    , Config::USER, Config::MDP);
+$db = new PDO(
+    "mysql:host=" . Config::SERVEUR . ";dbname=" . Config::BASE . "",
+    Config::USER,
+    Config::MDP
+);
 
 $r = $db->prepare("SELECT * FROM TOPIC ORDER BY dateCreationTopic desc");
 $r->execute();
@@ -19,7 +22,7 @@ $users = $r1->fetchAll();
 <div class="container">
     <div class=" mt-5s mx-auto">
         <?php foreach ($topics as $topic) {
-            ?>
+        ?>
             <div class="row">
                 <div class="col s12 m6">
                     <div style="border-radius: 50px; box-shadow: 1px 1px 12px #555;" class="card white darken-1">
@@ -39,10 +42,10 @@ $users = $r1->fetchAll();
                                 } ?>
                             </p>
                             <p style="color: #555555;">posté par <?php foreach ($users as $user) {
-                                    if ($user["idPersonnes"] == $topic["idPersonnes"]){
-                                        echo $user["prenomPersonnes"]." ".$user["nomPersonnes"];
-                                    }
-                                } ?>
+                                                                        if ($user["idPersonnes"] == $topic["idPersonnes"]) {
+                                                                            echo $user["prenomPersonnes"] . " " . $user["nomPersonnes"];
+                                                                        }
+                                                                    } ?>
                             </p>
                         </div>
                         <div class="card-action" style="border-radius: 50px;  box-shadow: 0px 5px 5px #555;">
