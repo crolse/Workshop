@@ -39,7 +39,7 @@ if ($userexist == 1) {
     } elseif ($userinfo['idRole'] == 2) {
         header("Location: ../vues/moderateur.php");
     } elseif ($userinfo['idRole'] == 3) {
-        header("Location: ../vues/testcopy.php");
+        header("Location: ../index.php");
     }
 } else {
     header("Location: ../connexion.php");

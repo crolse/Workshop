@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Goldplay;
+    src: url(../Font/Goldplay\ Regular.otf);
+ }
+
+ @font-face {
+    font-family: Goldplay;
+    src: url(../Font/Goldplay\ Bold.otf);
+    font-weight: bold;
+ }
+body {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    font-family: Goldplay;
+}
+#container {
+    width: 85vw;
+   
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    font-family: Goldplay;
+    
+    
+}
+
+#initiative {
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 1px 1px 12px #555;
+    max-width: 100%;
+    margin-top: 2vh;
+  }
+  #contenu{
+      padding:2vw ;
+  }
+  
+  #titre {
+      font-size: 1.3em;
+      font-weight: bold;
+      color:#03B898 ;
+      font-family: Goldplay;
+  }
+  
+  #lieu {
+      color: black;
+  }
+  
+  #text {
+      color: grey;
+  }
+  #date {
+      font-size: 00.5em;
+  }
+  #containerBoutton {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 1vh;
+  }
+
+  #containerCommentaire {
+      width: 80vw;
+  }
+
+  #modal {
+      border-radius: 20px;
+  }
+
+  #titreModal {
+      color:#03B898 ;
+  }
+  #message-text {
+      border: hidden;
+  }
+
+#bouttonPublier {
+    background-color: #03B898;
+
+}
+#modalCommentaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  #menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0vh;
+    background-color: #03B898 ;
+    width: 100vw;
+    height: 10vh;
+    
+}

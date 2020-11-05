@@ -31,7 +31,13 @@ $users = $r1->fetchAll();
 </head>
 
 <body>
-    <div id="menu"></div>
+    <div id="menu">
+        <a href="menu.php"><img src="./Images/Illustrations/SVG/menu-btn.svg" /></a>
+        <a href="#"><img src="./Images/Illustrations/SVG/pin-btn.svg" /></a>
+        <a href="#"><img src="./Images/Illustrations/SVG/profile-btn.svg" /></a>
+
+
+    </div>
     <div id="container">
 
         <input id="barreRecherche" class="form-control mr-sm-2" type="search" placeholder="Rechercher un lieu" aria-label="Search">
@@ -62,7 +68,7 @@ $users = $r1->fetchAll();
                         <div id="date"><?php echo $topic['dateCreationTopic'] ?></div>
                         <div id="containerBoutton">
                             <a href="./Actions/likeTopic.php?id=<?php echo $topic["idTopic"] ?>"><?php echo $topic["compteurJaimeTopic"] ?> <img src="./Images/Illustrations/SVG/up-btn.svg"></a>
-                            <a href="./selectionInitiative.php"><img src="./Images/Illustrations/SVG/comment-btn.svg"></a>
+                            <a href="./selectionInitiative.php?id=<?php echo $topic["idTopic"] ?>"><img src="./Images/Illustrations/SVG/comment-btn.svg"></a>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137" height="137" viewBox="0 0 137 137">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #03b898;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_111);
+      }
+    </style>
+    <filter id="Rectangle_111" x="0" y="0" width="137" height="137" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#03b898" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Pin" transform="translate(45.443 42.38)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -45.44, -42.38)">
+      <rect id="Rectangle_111-2" data-name="Rectangle 111" class="cls-1" width="47" height="47" rx="10" transform="translate(45 42)"/>
+    </g>
+    <g id="Icon_feather-map-pin" data-name="Icon feather-map-pin" transform="translate(12.643 10.272)">
+      <path id="Tracé_836" data-name="Tracé 836" class="cls-2" d="M25.834,12.167c0,8.3-10.667,15.408-10.667,15.408S4.5,20.464,4.5,12.167a10.667,10.667,0,1,1,21.334,0Z" transform="translate(-4.5 -1.5)"/>
+      <path id="Tracé_837" data-name="Tracé 837" class="cls-2" d="M20.611,14.056A3.556,3.556,0,1,1,17.056,10.5,3.556,3.556,0,0,1,20.611,14.056Z" transform="translate(-6.389 -3.389)"/>
+    </g>
+  </g>
+</svg>
