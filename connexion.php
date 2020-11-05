@@ -19,27 +19,29 @@
     <div id="ecran">
 
         <div class="formulaire">
-            <form>
+            <form action="./Actions/connexion.php" method="post">
 
                 <div class="form-group">
                     <label for="exampleInputEmail1">Adresse mail</label>
-                    <input type="email" class="form-control" id="">
+                    <input name="email" type="email" class="form-control" id="">
 
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Mot de passe</label>
-                    <input type="password" class="form-control" id="">
+                    <input name="mdp" type="password" class="form-control" id="">
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Rester Connecté</label>
                 </div>
                 <div id="bouttonDemarrer">
-                    Connexion
+                    <button id="bouttonDemarrerBis" type="submit" name="action">
+                        <div id="textBoutton">Connexion</div>
+                    </button>
                 </div>
                 <br>
                 <div class="lien">
-                    <a id="lienPropre" href="/inscription.php">Je n'ai pas de compte</a>
+                    <a id="lienPropre" href="./inscription.php">Je n'ai pas de compte</a>
 
                 </div>
                 <div class="lien">

@@ -30,7 +30,7 @@ body {
   position: absolute;
   top: 5vh;
   left: 5vh;
-  height: : 50vh;
+  height:  50vh;
   width: 50vh;
 }
   
@@ -66,6 +66,8 @@ label {
 #inputPrenom {
     border-color: red;
 }
+
+
 /*bouton demarrer*/
 
 #bouttonDemarrer {
@@ -81,6 +83,14 @@ label {
   text-align: center;
   vertical-align: middle;
   font-size: 20px;
+  
+}
+#bouttonDemarrerBis{
+  visibility: hidden;
+  color: white;
+}
+#textBoutton{
+  visibility: visible;
 }
 /* lien */
 

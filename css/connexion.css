@@ -82,6 +82,14 @@ label {
   vertical-align: middle;
   font-size: 20px;
 }
+
+#bouttonDemarrerBis{
+  visibility: hidden;
+  color: white;
+}
+#textBoutton{
+  visibility: visible;
+}
 /* lien */
 
 .lien {

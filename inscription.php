@@ -19,31 +19,33 @@
     <div id="ecran">
 
         <div class="formulaire">
-            <form>
+            <form action="./Actions/inscription.php" method="post">
 
                 <div class="form-group">
                     <label for="exampleInputPassword1">Prenom</label>
-                    <input id="inputPrenom " type="text" class="form-control">
+                    <input name="prenom" id="inputPrenom " type="text" class="form-control">
                 </div>
                 <div class="form-group" id="">
                     <label for="exampleInputPassword1">Nom</label>
-                    <input type="text" class="form-control" id="">
+                    <input name="nom" type="text" class="form-control" id="">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Adresse mail</label>
-                    <input type="email" class="form-control" id="">
+                    <input name="email" type="email" class="form-control" id="">
 
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Mot de passe</label>
-                    <input type="password" class="form-control" id="">
+                    <input name="mdp" type="password" class="form-control" id="">
                 </div>
                 <div id="bouttonDemarrer">
-                    Demarrer
+                    <button id="bouttonDemarrerBis" type="submit" name="action">
+                        <div id="textBoutton">Demarrer</div>
+                    </button>
                 </div>
                 <br>
                 <div class="lien">
-                    <a id="lienPropre" href="/connexion.php">J'ai déja un compte</a>
+                    <a id="lienPropre" href="./connexion.php">J'ai déja un compte</a>
                 </div>
                 <br>
                 <p id="p">En cliquant sur le bouton "Démarrer", vous créez un compte localize, et acceptez les conditions d'utilisation et la politique de confidentialité de localize</p>
