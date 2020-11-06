@@ -20,5 +20,5 @@ $r->bindParam(":idPersonnes", $_SESSION['idPersonnes']);
 
 
 $r->execute();
-header("Location: ../allInitiative.php");
+header("Location: ../selectionInitiative.php?id=" . $_SESSION['idTopics'] . "");
 //todo ajouter le chemin de retour

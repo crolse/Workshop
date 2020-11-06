@@ -11,6 +11,7 @@ $db = new PDO(
 
 $r = $db->prepare("SELECT * FROM TOPIC where idTopic = :idTopic");
 $r->bindParam(":idTopic", $idTopic);
+
 $r->execute();
 
 $topics = $r->fetchAll();
@@ -20,10 +21,17 @@ $r1->execute();
 
 $users = $r1->fetchAll();
 
-$r2 = $db->prepare("SELECT * FROM commentaires ORDER BY dateCommentaires desc");
+
+
+$r2 = $db->prepare("SELECT * FROM topic t RIGHT JOIN commentaires c ON t.idTopic = c.idTopic INNER join personnes p ON c.idPersonnes = p.idPersonnes where t.idTopic = :idTopic ORDER BY dateCommentaires desc");
+$r2->bindParam(":idTopic", $idTopic);
+
 $r2->execute();
 
 $commentaires = $r2->fetchAll();
+
+
+
 ?>
 <!DOCTYPE html>
 
@@ -106,11 +114,8 @@ $commentaires = $r2->fetchAll();
                     <div id="contenu">
 
                         <div id="text"><?php echo $commentaire['corpsCommentaires'] ?></div>
-                        <div id="Personne">Posté par <?php foreach ($users as $user) {
-                                                            if ($user["idPersonnes"] == $commentaire["idPersonnes"]) {
-                                                                echo $user["prenomPersonnes"] . " " . $user["nomPersonnes"];
-                                                            }
-                                                        } ?></div>
+                        <div id="Personne">Posté par <?php echo $commentaire["prenomPersonnes"] . " " . $commentaire["nomPersonnes"];
+                                                        ?></div>
                         <div id="date"><?php echo $commentaire['dateCommentaires'] ?></div>
                     </div>
                 </div>
