@@ -125,7 +125,7 @@
           <a href="#"><img src="./Images/Illustrations/SVG/373_architect_flatline.svg" /></a>
         </div>
         <div class="divTextSection">
-          Chez Localize on ne vend pas que du rêve. Découvrez vos initiatives passées à l’étape de projet !
+          Chez Localize on ne vend pas que du rêve. Découvrez vos initiatives passées à l’étape de projet ! 
         </div>
         <div class="buttonSection">
           Découvrir
