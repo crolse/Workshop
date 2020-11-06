@@ -28,6 +28,9 @@
       <a href="./404.php"> Villes </a>
     </div>
     <div class="divMenu">
+      <a href="./Map.php"> Map </a>
+    </div>
+    <div class="divMenu">
       <a href="./allInitiative.php"> Projets </a>
     </div>
     <div class="divMenu">
